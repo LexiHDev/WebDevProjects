@@ -1,0 +1,136 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: flex-start;
+    background-color: #6867AC;
+    padding: 15px 20px;
+    margin: 10px;
+
+    border-radius: 10px;
+}
+* {
+    color: #6867AC;
+    font-size: 1.325rem;
+}
+body {
+    background-color: #FFBCD1;
+}
+.page-title {
+    display: inline-block;
+    flex-grow: 1;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #FFBCD1
+}
+
+a {
+    color:#CE7BB0;
+}
+
+.header a {
+    align-self: center;
+    margin: 2px 8px 2px 8px;
+    font-size: 1.25rem;
+    
+    text-decoration: solid;
+    font-weight: bold;
+}
+.header a:visited {
+    color:#CE7BB0
+}
+
+.content {
+    display: flex;
+    margin: 0 5px 0 5px;
+}
+
+.content aside {
+    min-width: 25vw;
+    margin: 5px 0;
+    padding: 0px 10px;
+    border: #6867AC 2px solid;
+    border-right: #6867AC 0px solid;
+}
+
+.content article {
+    min-width: 60vw;
+    margin: 5px 0;
+    padding: 0px 10px;
+    border: #6867AC 2px solid;
+}
+
+.content .mainBody {
+    margin: 2px;
+    min-width: calc(100vw - 40px);
+    word-wrap: initial;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    position:absolute;
+    height:2rem;
+    width: calc(100% - 15px);
+    margin: 0 5px;
+    bottom:5px;
+    background-color: #FFBCD1;
+    border: #6867AC 2px solid;
+} 
+
+[data-postid="21256041"] {
+    float: left;
+    max-width: auto;
+}
+
+[data-postid="23358016"] {
+    float: left;
+    max-width: auto;
+}
