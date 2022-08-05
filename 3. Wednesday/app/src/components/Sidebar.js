@@ -12,6 +12,6 @@ export default class Sidebar extends React.Component {
             <SidebarLink text ="of"/>
             <SidebarLink text ="Buttons"/>
         </ul>
-    </article >
+    </article>
     }
 }
