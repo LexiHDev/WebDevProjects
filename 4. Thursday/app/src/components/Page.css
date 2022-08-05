@@ -1,0 +1,22 @@
+.Page {
+    background-color: #2c313a;
+    margin: 1vh 1vh;
+    flex-grow: 1;
+    height: calc(100vh - 19.5vh);
+    display: flex;
+    flex-direction: column;
+}
+
+.Page p {
+    background-color: #282c34;
+    text-align: left;
+    margin: 2vh;
+    flex-grow: 1;
+    padding: 1vh;
+}
+
+.Page h2,
+.Page h5 {
+    margin-top: 2vh;
+    margin-bottom: 0;
+}

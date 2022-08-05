@@ -1,0 +1,23 @@
+.CustomerRegistration {
+    background-color: #34363a;
+    margin: 1vh;
+    padding: 1vh;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    font-size: 3rem
+}
+
+.CustomerRegistration input {
+    margin: 10px;
+    font-size: 3rem;
+}
+[type="submit"] {
+    align-self: center;
+    width: 50%;
+    font-size: 5rem;
+    height: 30vh;
+    background-color: aquamarine;
+    border: 0px;
+    border-radius: 15px;
+}
