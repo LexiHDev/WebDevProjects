@@ -9,9 +9,7 @@ export default class Sidebar extends React.Component {
         <h2>Site navigation.</h2>
         <ul class="navigationList">
             <SidebarLink text ="Example"/>
-            
             <SidebarLink text ="of"/>
-            
             <SidebarLink text ="Buttons"/>
         </ul>
     </article >
